@@ -1,0 +1,62 @@
+# Gatineau
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Active Passive Anchor Design](https://gatineau.geotechnical-engineering.org/active-passive-anchor-design/)
+- [Atterberg Limits](https://gatineau.geotechnical-engineering.org/atterberg-limits/)
+- [Base Isolation Seismic Design](https://gatineau.geotechnical-engineering.org/base-isolation-seismic-design/)
+- [Bearing Capacity Analysis](https://gatineau.geotechnical-engineering.org/bearing-capacity-analysis/)
+- [Contaminated Soil Remediation](https://gatineau.geotechnical-engineering.org/contaminated-soil-remediation/)
+- [Diaphragm Wall Design](https://gatineau.geotechnical-engineering.org/diaphragm-wall-design/)
+- [Direct Shear](https://gatineau.geotechnical-engineering.org/direct-shear/)
+- [Driven Pile Design](https://gatineau.geotechnical-engineering.org/driven-pile-design/)
+- [Dynamic Compaction Design](https://gatineau.geotechnical-engineering.org/dynamic-compaction-design/)
+- [Electrical Resistivity Ves](https://gatineau.geotechnical-engineering.org/electrical-resistivity-ves/)
+- [Existing Pavement Evaluation](https://gatineau.geotechnical-engineering.org/existing-pavement-evaluation/)
+- [Expansive Soil Evaluation](https://gatineau.geotechnical-engineering.org/expansive-soil-evaluation/)
+- [Exploratory Pit](https://gatineau.geotechnical-engineering.org/exploratory-pit/)
+- [Field Density](https://gatineau.geotechnical-engineering.org/field-density/)
+- [Flat Dilatometer](https://gatineau.geotechnical-engineering.org/flat-dilatometer/)
+- [Flexible Pavement Design](https://gatineau.geotechnical-engineering.org/flexible-pavement-design/)
+- [Foundations](https://gatineau.geotechnical-engineering.org/foundations/)
+- [Foundations Fill](https://gatineau.geotechnical-engineering.org/foundations-fill/)
+- [Geocell Design](https://gatineau.geotechnical-engineering.org/geocell-design/)
+- [Geogrid Specification](https://gatineau.geotechnical-engineering.org/geogrid-specification/)
+- [Geophysics](https://gatineau.geotechnical-engineering.org/geophysics/)
+- [Geotechnical Design Deep Excavations](https://gatineau.geotechnical-engineering.org/geotechnical-design-deep-excavations/)
+- [Geotechnical Excavation Monitoring](https://gatineau.geotechnical-engineering.org/geotechnical-excavation-monitoring/)
+- [Geotechnical Instrumentation](https://gatineau.geotechnical-engineering.org/geotechnical-instrumentation/)
+- [Geotechnical Road Drainage](https://gatineau.geotechnical-engineering.org/geotechnical-road-drainage/)
+- [Ground Improvement](https://gatineau.geotechnical-engineering.org/ground-improvement/)
+- [Ground Penetrating Radar](https://gatineau.geotechnical-engineering.org/ground-penetrating-radar/)
+- [Hvsr Microtremor Survey](https://gatineau.geotechnical-engineering.org/hvsr-microtremor-survey/)
+- [In Situ Testing](https://gatineau.geotechnical-engineering.org/in-situ-testing/)
+- [Investigation](https://gatineau.geotechnical-engineering.org/investigation/)
+- [Jet Grouting Design](https://gatineau.geotechnical-engineering.org/jet-grouting-design/)
+- [Laboratory](https://gatineau.geotechnical-engineering.org/laboratory/)
+- [Laboratory Cbr](https://gatineau.geotechnical-engineering.org/laboratory-cbr/)
+- [Landfill Geotechnics](https://gatineau.geotechnical-engineering.org/landfill-geotechnics/)
+- [Lime Cement Stabilization](https://gatineau.geotechnical-engineering.org/lime-cement-stabilization/)
+- [Pile Foundation Design](https://gatineau.geotechnical-engineering.org/pile-foundation-design/)
+- [Plate Load](https://gatineau.geotechnical-engineering.org/plate-load/)
+- [Porchet Double Ring Infiltrometer](https://gatineau.geotechnical-engineering.org/porchet-double-ring-infiltrometer/)
+- [Refraction Reflection](https://gatineau.geotechnical-engineering.org/refraction-reflection/)
+- [Residual Soil Characterization](https://gatineau.geotechnical-engineering.org/residual-soil-characterization/)
+- [Retaining Wall Design](https://gatineau.geotechnical-engineering.org/retaining-wall-design/)
+- [Roadway](https://gatineau.geotechnical-engineering.org/roadway/)
+- [Seismic](https://gatineau.geotechnical-engineering.org/seismic/)
+- [Seismic Amplification Analysis](https://gatineau.geotechnical-engineering.org/seismic-amplification-analysis/)
+- [Seismic Foundation Design](https://gatineau.geotechnical-engineering.org/seismic-foundation-design/)
+- [Shallow Foundation Design](https://gatineau.geotechnical-engineering.org/shallow-foundation-design/)
+- [Shear Wave Velocity](https://gatineau.geotechnical-engineering.org/shear-wave-velocity/)
+- [Slope Stability Analysis](https://gatineau.geotechnical-engineering.org/slope-stability-analysis/)
+- [Slopes Walls](https://gatineau.geotechnical-engineering.org/slopes-walls/)
+- [Soil Erosion Analysis](https://gatineau.geotechnical-engineering.org/soil-erosion-analysis/)
+
+## Contact
+- Website: https://gatineau.geotechnical-engineering.org/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
