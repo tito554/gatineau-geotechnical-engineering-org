@@ -1,226 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8"><meta name="theme-color" content="#2F4F4F">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seismic in Gatineau – Canada</title>
-<meta name="description" content="In Gatineau, seismic design must account for the region’s sensitive Leda clay deposits and the moderate seismicity of the Western Quebec Seismic Zone. Comp">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seismic in Gatineau – Canada | Professional geotechnical engineering</title>
+<meta name="description" content="Seismic engineering in Gatineau demands thorough subsurface evaluation due to the region’s sensitive clay deposits and proximity to the Western Quebec Seis">
 <link rel="canonical" href="https://gatineau.geotechnical-engineering.org/seismic/">
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Seismic in Gatineau – Canada">
-<meta property="og:description" content="In Gatineau, seismic design must account for the region’s sensitive Leda clay deposits and the moderate seismicity of the Western Quebec Seismic Zone. Comp">
+<meta property="og:description" content="Seismic engineering in Gatineau demands thorough subsurface evaluation due to the region’s sensitive clay deposits and proximity to the Western Quebec Seis">
 <meta property="og:url" content="https://gatineau.geotechnical-engineering.org/seismic/">
-<meta property="og:site_name" content="Gatineau Ca">
-<meta property="og:image" content="https://gatineau.geotechnical-engineering.org/img/base-isolation-seismic-design-1.webp">
-<meta property="og:locale" content="en_CA">
-<!-- Twitter -->
+<meta property="og:site_name" content="Geotechnical Engineering">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://gatineau.geotechnical-engineering.org/img/anclajes-1.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Seismic in Gatineau – Canada">
-<meta name="twitter:description" content="In Gatineau, seismic design must account for the region’s sensitive Leda clay deposits and the moderate seismicity of the Western Quebec Seismic Zone. Comp">
-
+<meta name="twitter:description" content="Seismic engineering in Gatineau demands thorough subsurface evaluation due to the region’s sensitive clay deposits and proximity to the Western Quebec Seis">
+<meta name="twitter:image" content="https://gatineau.geotechnical-engineering.org/img/anclajes-1.webp">
 <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#F5F5F4;color:#292524;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.topbar{background:#1C1917;color:#FFF;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:80px;position:sticky;top:0;z-index:1010}
+.logo-area{display:flex;align-items:center;gap:.6rem;font-family:'Inter',system-ui,sans-serif}
+.logo-text{font-weight:700;letter-spacing:.02em;line-height:1}
+.logo-text .main{font-size:1.05rem}
+.logo-text .sub{font-size:1.05rem;color:#D97706}
+.nav{display:flex;gap:1rem;align-items:center}
+.nav-item{position:relative;font-size:1.05rem;color:#FFF;cursor:pointer;padding:.8rem 0;white-space:nowrap}
+.nav-item.has-dd:hover .dd{display:flex}
+.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:260px;padding:.8rem 0;box-shadow:0 10px 30px rgba(0,0,0,.2);border-top:3px solid #D97706;flex-direction:column;z-index:1011;max-height:420px;overflow-y:auto}
+.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
+.dd a{padding:.5rem 1.2rem;color:#292524;font-size:.85rem;display:block;white-space:normal}
+.dd a:hover{background:#F5F5F5;color:#B45309}
+.nav-contact-btn{background:#B45309;color:#FFF;padding:.6rem 1.4rem;font-size:.82rem;font-weight:600;letter-spacing:.05em}
+.hero{background:linear-gradient(135deg,#B45309 0%,#1C1917 100%);min-height:400px;display:flex;align-items:center;padding:2.5rem 2rem;color:#FFF}
+.hero-inner{max-width:900px;margin:0 auto;width:100%}
+.crumb{font-size:.78rem;margin-bottom:1rem;letter-spacing:.03em;color:rgba(255,255,255,.85)}
+.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
+.crumb a:hover{color:#D97706}
+.hero h1{font-family:'Inter',sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}
+.hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
+.hero-cta{background:#D97706;color:#FFF;padding:.8rem 1.8rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;display:inline-block}
+.container{max-width:1200px;margin:0 auto;padding:0 2rem}
+section.block{padding:3.5rem 0}
+section.block h2{font-family:'Inter',sans-serif;font-size:1.6rem;color:#1C1917;margin-bottom:1.2rem;font-weight:700;letter-spacing:-.01em}
+section.block p{margin-bottom:1rem;line-height:1.7;color:#292524;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+section.tint{background:#F7F8FA}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem;margin-top:2rem}
+.svc-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s}
+.svc-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.08);transform:translateY(-2px)}
+.card-img{height:170px;background-size:cover;background-position:center;background-color:#E5E7EB}
+.card-body{padding:1.3rem}
+.card-body h3{color:#B45309;font-size:1.25rem;font-weight:700;margin-bottom:1rem;font-family:'Inter',sans-serif}
+.card-links a{display:block;color:#B45309;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
+.card-links a:hover{color:#D97706}
+.card-viewall{display:inline-block;color:#D97706;font-size:.72rem;font-weight:700;letter-spacing:.08em;margin-top:.8rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+table th{background:#1C1917;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
+table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
+table tr:nth-child(even) td{background:#F9FAFB}
+details{background:#FFF;border:1px solid #E5E7EB;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
+details summary{font-weight:600;color:#1C1917;list-style:none}
+details[open] summary{margin-bottom:.7rem}
+details p{color:#292524;line-height:1.65;margin:0}
+.cta-box{background:#1C1917;color:#FFF;padding:2.5rem 2rem;text-align:center;border-radius:12px;margin:3rem 0}
+.cta-box h2{color:#FFF;margin-bottom:.6rem}
+.cta-box a{color:#D97706;font-weight:600}
+footer{background:#1C1917;color:#FFF;padding:2.5rem 2rem;text-align:center;font-size:.85rem;opacity:.88;margin-top:3rem}
+footer a{color:#D97706}
+@media(max-width:900px){.nav{display:none}.topbar{height:64px}.hero h1{font-size:1.6rem}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://gatineau.geotechnical-engineering.org/seismic/", "url": "https://gatineau.geotechnical-engineering.org/seismic/", "name": "Seismic in Gatineau – Canada", "inLanguage": "en", "description": "Seismic engineering in Gatineau demands thorough subsurface evaluation due to the region’s sensitive clay deposits and proximity to the Western Quebec Seis", "isPartOf": {"@type": "WebSite", "@id": "https://gatineau.geotechnical-engineering.org/#website", "url": "https://gatineau.geotechnical-engineering.org"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://gatineau.geotechnical-engineering.org/"}, {"@type": "ListItem", "position": 2, "name": "Seismic", "item": "https://gatineau.geotechnical-engineering.org/seismic/"}]}, {"@type": "ItemList", "name": "Seismic", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://gatineau.geotechnical-engineering.org/liquefaction/", "name": "Soil liquefaction analysis"}, {"@type": "ListItem", "position": 2, "url": "https://gatineau.geotechnical-engineering.org/seismic-isolation/", "name": "Base isolation seismic design"}, {"@type": "ListItem", "position": 3, "url": "https://gatineau.geotechnical-engineering.org/seismic-microzonation/", "name": "Seismic microzonation"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="post-fixes-v2">
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+</style>
+<style id="nav-fix-v3">
+nav.navbar, header nav, .nav-bar, .top-nav { font-size: 1rem !important; }
+nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a { font-size: 1rem !important; color: #FFFFFF !important; font-weight: 500 !important; }
+nav.navbar a:hover, header nav a:hover, .nav-cat-link:hover { color: #FCD34D !important; text-decoration: underline; }
+nav[aria-label="breadcrumb"], .crumb, .breadcrumb { color: rgba(255,255,255,.85) !important; font-size: .82rem !important; }
+nav[aria-label="breadcrumb"] a, .crumb a, .breadcrumb a { color: #FFFFFF !important; text-decoration: underline; font-weight: 600; }
+nav[aria-label="breadcrumb"] a:hover, .crumb a:hover { color: #FCD34D !important; }
+.crumb a[href="/"], .breadcrumb a[href="/"], a.home-link { color: #FFFFFF !important; }
+.brand-name, .logo-text, .main, .brand { color: #FFFFFF !important; }
+</style>
+</head><body>
 
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-.sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-.cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-.sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
-/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
-.sidebar { padding: .5rem 0; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-.header-contact a:hover { color: white; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-:root {
-    --primary: #D4A017;
-    --accent: #EAB308;
-    --dark: #0C1B33;
-    --bg: #FAF9F6;
-    --text: #1E293B;
-    --font-h: 'Space Grotesk', 'Segoe UI', sans-serif;
-    --font-b: 'IBM Plex Sans', 'Segoe UI', sans-serif;
-}
-.servicio:hover { border-color: var(--primary); }
-
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-summary:hover { background: rgba(0,0,0,0.02); }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.sidebar .sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
-}
-.sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-    .content-area { flex-direction: column; }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-.cat-toggle:hover{background:rgba(255,255,255,.1)}
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
-}
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-tr:nth-child(even) { background: #f8fafc; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-a { color: var(--primary); text-decoration: none; }
-.cta .whatsapp-btn:hover { background: #1eb853; }
-main p { margin-bottom: 1rem; color: #334155; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.sidebar .cat.open + .sub { display: flex; }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-footer a { color: rgba(255,255,255,0.85); }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-summary::-webkit-details-marker { display: none; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-.sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
-.sidebar .cat.open .arrow { transform: rotate(90deg); }
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-.sidebar .cat {
-    cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-    border-top: 1px solid rgba(255,255,255,0.04);
-}
-    .container { padding: 1rem; }
-
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-    main { padding: 1.5rem; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
-.cat-row:hover{background:rgba(255,255,255,.05)}
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-main section { margin-bottom: 1.5rem; }
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-details[open] summary::before { content: '− '; }
-    .header-top { flex-direction: column; text-align: center; }</style>
-<style>
-@media(min-width:901px){
-  .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
-  main{flex:1!important;min-width:0!important}
-  .sidebar nav,.sidebar .nav{display:block!important}
-img{max-width:100%!important;height:auto!important}
-  body{background:#FAFAFA!important;color:#18181B!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  aside{align-self:start!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://gatineau.geotechnical-engineering.org/seismic/","isPartOf":{"@type":"WebSite","@id":"https://gatineau.geotechnical-engineering.org/#website-d44d","url":"https://gatineau.geotechnical-engineering.org"},"inLanguage":"en","description":"In Gatineau, seismic design must account for the region’s sensitive Leda clay deposits and the moderate seismicity of the Western Quebec Seismic Zone. Comp","name":"Seismic in Gatineau – Canada","@type":"WebPage","url":"https://gatineau.geotechnical-engineering.org/seismic/"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://gatineau.geotechnical-engineering.org/","position":1},{"name":"Seismic","@type":"ListItem","item":"https://gatineau.geotechnical-engineering.org/seismic/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"name":"Base isolation seismic design","@type":"ListItem","position":1,"url":"https://gatineau.geotechnical-engineering.org/base-isolation-seismic-design/"},{"name":"Seismic amplification analysis","@type":"ListItem","position":2,"url":"https://gatineau.geotechnical-engineering.org/seismic-amplification-analysis/"}],"name":"Seismic","@type":"ItemList"}]}</script></head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;flex-direction:column;align-items:center;gap:6px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><rect x="10" y="10" width="44" height="44" rx="6" fill="#D4A017"/><rect x="18" y="22" width="28" height="4" fill="#0C1B33"/><rect x="18" y="30" width="20" height="4" fill="#0C1B33"/><rect x="18" y="38" width="24" height="4" fill="#0C1B33"/></svg><span style="font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:15px;text-transform:uppercase;letter-spacing:0.1em;">Gatineau Ca</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Gatineau, Canada</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contact@geotechnical-engineering.org">contact@geotechnical-engineering.org</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li>Slopes</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Seismic</li></ol></nav>
-        <h1>Seismic in Gatineau</h1>
+<div class="topbar">
+    <div class="logo-area">
+        <div class="logo-text"><div class="main">GEOTECHNICAL ENGINEERING</div><div class="sub">GATINEAU</div></div>
     </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="../investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="/">CPT (Cone Penetration Test)</a><a href="../exploratory-pit">Exploratory test pit</a><a href="../standard-penetration">SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="in-situ-testing"><div class="cat-row"><a href="../in-situ-testing/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../field-density">Field density test (sand cone method)</a><a href="/">Field permeability test (Lefranc/Lugeon)</a><a href="/">Field vane shear test (VST)</a><a href="../flat-dilatometer">Flat Dilatometer Test (DMT)</a><a href="../porchet-double-ring-infiltrometer">Infiltration test (Porchet/Double-ring infiltrometer)</a><a href="/">Ménard pressuremeter test (PMT)</a><a href="../plate-load">Plate load test (PLT)</a><a href="../undisturbed-sampling">Undisturbed sampling (Shelby tube)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="../laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../atterberg-limits">Atterberg limits</a><a href="../direct-shear">Direct shear test</a><a href="/">Grain size analysis (sieve + hydrometer)</a><a href="../laboratory-cbr">Laboratory CBR test</a><a href="/">Laboratory permeability test (falling/constant head)</a><a href="/">Oedometer consolidation test</a><a href="../standard-modified">Proctor test (Standard or Modified)</a><a href="../residual-soil-characterization">Residual soil characterization</a><a href="/">Soil classification (USCS/AASHTO)</a><a href="../soil-mechanics-study">Soil mechanics study</a><a href="../triaxial">Triaxial test</a><a href="../unconfined-compression">Unconfined compression test (UCS)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="../foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../bearing-capacity-analysis">Bearing capacity analysis</a><a href="/">Collapsible soil evaluation</a><a href="/">Differential settlement analysis</a><a href="../driven-pile-design">Driven pile design</a><a href="../expansive-soil-evaluation">Expansive soil evaluation</a><a href="../foundations-fill">Foundations on fill (analysis)</a><a href="/">Micropile design</a><a href="../pile-foundation-design">Pile foundation design</a><a href="/">Pile skin friction vs. end bearing analysis</a><a href="/">Raft/mat foundation design</a><a href="../seismic-foundation-design">Seismic foundation design</a><a href="/">Settlement analysis</a><a href="../shallow-foundation-design">Shallow foundation design</a></div></div><div class="cat-item" data-cat="slopes-walls"><div class="cat-row"><a href="../slopes-walls/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../active-passive-anchor-design">Active/passive anchor design</a><a href="/">Debris flow analysis</a><a href="../diaphragm-wall-design">Diaphragm wall design</a><a href="/">Factor of safety (FS) calculation</a><a href="../geocell-design">Geocell design</a><a href="/">Geotechnical slope monitoring (monthly)</a><a href="/">Landslide assessment</a><a href="/">MSE (Mechanically Stabilized Earth) wall design</a><a href="../retaining-wall-design">Retaining wall design</a><a href="/">Sheet pile wall design</a><a href="/">Slope failure analysis</a><a href="../slope-stability-analysis">Slope stability analysis</a><a href="/">Slope stabilization design</a><a href="../soil-erosion-analysis">Soil erosion analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="../ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../contaminated-soil-remediation">Contaminated soil remediation</a><a href="/">Deep Soil Mixing (DSM) design</a><a href="../dynamic-compaction-design">Dynamic compaction design</a><a href="../geogrid-specification">Geogrid specification</a><a href="/">Geomembrane specification</a><a href="/">Geotechnical drainage design</a><a href="../geotechnical-instrumentation">Geotechnical instrumentation (design and installation)</a><a href="/">Geotextile specification</a><a href="/">Grouting design</a><a href="../jet-grouting-design">Jet grouting design</a><a href="../landfill-geotechnics">Landfill geotechnics</a><a href="../lime-cement-stabilization">Lime and cement stabilization</a><a href="/">Organic soil management</a><a href="/">Prefabricated vertical drain (PVD) design</a><a href="/">Preloading design (without surcharge)</a><a href="/">Preloading with surcharge design</a><a href="/">Stone column design</a><a href="../unsaturated-soil-analysis">Unsaturated soil analysis</a><a href="../vibrocompaction-design">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="../seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../base-isolation-seismic-design">Base isolation seismic design</a><a href="../seismic-amplification-analysis">Seismic amplification analysis</a><a href="/">Seismic microzonation</a><a href="/">Site response analysis</a><a href="/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="roadway"><div class="cat-row"><a href="../roadway/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="/">CBR study for road design</a><a href="../existing-pavement-evaluation">Existing pavement evaluation</a><a href="../flexible-pavement-design">Flexible pavement design</a><a href="../geotechnical-road-drainage">Geotechnical road drainage</a><a href="/">Rigid pavement design</a><a href="/">Road embankment design</a><a href="/">Road geotechnics (pavement/subgrade design)</a><a href="/">Road subgrade design</a><a href="/">Soil stabilization for roads</a></div></div><div class="cat-item" data-cat="geophysics"><div class="cat-row"><a href="../geophysics/" class="cat-name">Geophysics</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geophysics"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../electrical-resistivity-ves">Electrical resistivity / VES (Vertical Electrical Sounding)</a><a href="../ground-penetrating-radar">GPR (Ground Penetrating Radar) survey</a><a href="../hvsr-microtremor-survey">HVSR microtremor survey (Nakamura method)</a><a href="../shear-wave-velocity">MASW / VS30 (shear wave velocity)</a><a href="../refraction-reflection">Seismic tomography (refraction/reflection)</a></div></div><div class="cat-item" data-cat="underground-excavations"><div class="cat-row"><a href="../underground-excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="/">Geotechnical analysis for soft soil tunnels</a><a href="../geotechnical-design-deep-excavations">Geotechnical design of deep excavations</a><a href="../geotechnical-excavation-monitoring">Geotechnical excavation monitoring</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>In Gatineau, seismic design must account for the region’s sensitive Leda clay deposits and the moderate seismicity of the Western Quebec Seismic Zone. Compliance with the National Building Code of Canada (NBC 2020) and local amendments is mandatory, particularly for sites with soft soil profiles prone to amplification. This category addresses site-specific hazard assessments, ground motion characterization, and structural strategies to reduce earthquake risk. A critical component is <a href="base-isolation-seismic-design">base isolation seismic design</a>, which decouples structures from ground movement, alongside detailed <a href="seismic-amplification-analysis">seismic amplification analysis</a> to quantify how local soils magnify shaking.</p><p>Projects ranging from institutional buildings and bridges to mid-rise residential towers on Gatineau’s post-glacial silts require these evaluations. Site classification per NBC 2020 often reveals Class D or E conditions, demanding dynamic response spectra rather than simplified static methods. Integrating <a href="seismic-amplification-analysis">seismic amplification analysis</a> with geotechnical investigations ensures foundation designs reflect true bedrock-to-surface motion, reducing uncertainty for structural engineers and regulatory approval.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="/img/anclajes-1.webp" loading="lazy" decoding="async" width="800" height="600" alt="Illustrative image of Active/passive anchor design in Gatineau" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure></section>
-
-            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">In Gatineau's marine clay, anchor bond zones often need to extend 30% longer than in glacial till to reach equivalent capacity.</blockquote>
-
-            
-
-            <section>
-                <h2>Scope of work in Gatineau</h2>
-                <div>Soil conditions differ sharply between the downtown Hull sector and the western slopes near Aylmer. Downtown Hull sits on deep clay deposits with high plasticity and low undrained shear strength. Up in the Plateau, you hit dense sandy till within a few meters. That contrast changes everything for anchor design. In clay, passive anchors need longer bond zones to develop enough capacity. In till, active anchors can mobilize higher loads quickly. We combine data from test pits and boreholes to define the soil profile. Then we select anchor type, bond length, and grout pressure accordingly. Our team follows CSA A23.3 and NBCC 2020 to size anchors for both temporary and permanent works. We also check corrosion protection requirements when anchors stay in place long term. For projects in mixed soil conditions, we recommend plate load testing to verify anchor performance at the start of production.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Active and Passive Anchor Design in Gatineau</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Bond zone length</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4 m to 12 m depending on soil type</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Anchor inclination</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15 to 30 degrees from horizontal</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Grout compressive strength (28 days)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">25 MPa minimum</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Corrosion protection class</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Class I or II per CSA S6</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Proof load test</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1.33 x design load per ASTM D4435</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Lock-off load (active anchors)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">80% of design load</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Typical technical challenges in Gatineau</h2>
-                <p>The Champlain Sea clay in Gatineau is notorious for creep and loss of strength under sustained load. If an active anchor loses tension over time, the wall or structure it supports can move. We have seen cases where anchors in Hull had to be restressed after two years because the clay relaxed. Another risk is groundwater. The water table sits high in many parts of Gatineau, especially near the river. Hydrostatic pressure can reduce effective stress around the bond zone and lower pullout capacity. We always install standpipes and measure pore pressure before finalizing anchor design. For deep excavations in the Plateau area, we check for boulders in the till that can deflect drilling and reduce bond zone quality.</p>
-            </section>
-
-            
-    <section class="block mid-cta-d44d-d44d" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
-        <a href="mailto:contact@geotechnical-engineering.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnical-engineering.org</a>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Applicable standards:</strong> NBCC 2020 – National Building Code of Canada, CSA A23.3 – Design of Concrete Structures (anchor embedment), ASTM D4435 – Standard Test Method for Rock Bolt Anchor Pull Test, FHWA Geotechnical Engineering Circular No. 4 – Ground Anchors and Anchored Systems
-            </div>
-
-            <section>
-                <h2>Our services</h2>
-                <p>We provide a full suite of anchor design services tailored to Gatineau's ground conditions. Each service covers <a href="../foundations-fill/" data-interlink="1">analysis</a>, design, and construction support.</p>
-                <style>.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}</style><div class="servicios-grid"><div class="servicio"><h3>Active Anchor Design</h3><p>Post-tensioned anchors for retaining walls, bridge abutments, and excavation support. We calculate lock-off loads, bond zone length, and corrosion protection per CSA S6.</p></div><div class="servicio"><h3>Passive Anchor Design</h3><p>Untensioned anchors for permanent slope stabilization and tieback systems. Design focuses on bond zone development in clay and till, with creep <a href="../foundations-fill/" data-interlink="1">analysis</a> where needed.</p></div><div class="servicio"><h3>Anchor Testing and Verification</h3><p>Proof load tests, performance tests, and creep tests per ASTM D4435. We monitor load and displacement in real time to confirm design assumptions.</p></div><div class="servicio"><h3>Corrosion Protection Assessment</h3><p>Evaluation of soil resistivity and chloride content near the Ottawa River. We specify epoxy-coated strands, grout cover, or double corrosion protection systems.</p></div></div>
-            </section>
-
-            
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../base-isolation-seismic-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Base isolation seismic design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-amplification-analysis/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismic amplification analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+    <div class="nav">
+        <div class="nav-item has-dd"><a href="/investigation/" class="nav-cat-link" style="color:inherit;text-decoration:none">Investigation</a> <span>▾</span><div class="dd"><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ Testing</a> <span>▾</span><div class="dd"><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="nav-item has-dd"><a href="/laboratory/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratory</a> <span>▾</span><div class="dd"><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a><a href="/">Atterberg limits</a></div></div><div class="nav-item has-dd"><a href="/foundations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Foundations</a> <span>▾</span><div class="dd"><a href="/">Pile foundation design</a></div></div><div class="nav-item has-dd"><a href="/slopes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Slopes & Walls</a> <span>▾</span><div class="dd"><a href="/slope-stability/">Slope stability analysis</a><a href="/">Active/passive anchor design</a><a href="/">Retaining wall design</a></div></div><div class="nav-item has-dd"><a href="/flexible-pavement/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ground improvement</a> <span>▾</span><div class="dd"><a href="/">Stone column design</a><a href="/liquefaction/">Vibrocompaction design</a></div></div><div class="nav-item has-dd"><a href="/excavations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Underground Excavations</a> <span>▾</span><div class="dd"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/excavations/">Geotechnical design of deep excavations</a><a href="/excavations/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="/" class="nav-cat-link" style="color:inherit;text-decoration:none">Roadway</a> <span>▾</span><div class="dd"><a href="/flexible-pavement/">Flexible pavement design</a><a href="/flexible-pavement/">Rigid pavement design</a><a href="/cbr-road/">CBR study for road design</a></div></div><div class="nav-item has-dd"><a href="/seismic/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismic</a> <span>▾</span><div class="dd"><a href="/liquefaction/">Soil liquefaction analysis</a><a href="/excavations/">Base isolation seismic design</a><a href="/excavations/">Seismic microzonation</a></div></div>
     </div>
 </div>
 
-<link rel="stylesheet" href="/css/leaflet-d44d.css"/>
-<script src="/js/leaflet-d44d.js"></script>
-<script>
-(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([45.4277659,-75.710976],12);L.tileLayer("https://{s}.tile-d44d.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([45.4277659,-75.710976]).addTo(map).bindPopup("Gatineau").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
-</script><footer style="background:linear-gradient(135deg,#0C1B33,#EAB30822);color:#FFF;padding:3rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h3 style="font-size:1.4rem;margin:0 0 .5rem;color:#FFF">Ready for your project?</h3><p style="margin:0 0 1.5rem;color:rgba(255,255,255,.8)">Gatineau, Canada</p><a href="mailto:contact@geotechnical-engineering.org" style="display:inline-block;background:#EAB308;color:#FFF !important;padding:.9rem 2.2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.25)">Request a quote — contact@geotechnical-engineering.org</a><p style="margin:1.8rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">© 2026 Geotechnical Engineering Ca · All rights reserved</p></div><div data-updated="2026-04-24" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Last updated: 2026-04-01</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.publications.usace.army.mil/USACE-Publications/Engineer-Manuals/" rel="nofollow noopener" target="_blank">USACE Engineer Manuals</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div></footer>
+<header class="hero"><div class="hero-inner">
+    <div class="crumb"><a href="/">Home</a> › <span>Seismic</span></div>
+    <h1>Seismic in Gatineau</h1>
+    <p class="tagline">Sound ground. Sound decisions.</p>
+    <a class="hero-cta" href="#main-content">LEARN MORE</a>
+</div></header>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/microzonificacion-sismica-1.webp" alt="Seismic in Gatineau" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Seismic engineering in Gatineau demands thorough subsurface evaluation due to the region’s sensitive clay deposits and proximity to the Western Quebec Seismic Zone. Compliance with the National Building Code of Canada (NBCC 2020) requires site-specific ground motion assessments for Class C through F sites. Our <a href="liquefaction">soil liquefaction analysis</a> identifies zones where cyclic loading could trigger a sudden loss of strength in saturated silts, while <a href="seismic-microzonation">seismic microzonation</a> maps local amplification effects tied to the variable bedrock depth and soft Leda clays found along the Outaouais River corridor.</p>
+<p>Critical infrastructure, mid-rise institutional buildings, and post-disaster facilities in Gatineau routinely trigger these specialized studies during the rezoning or permitting phase. For essential structures requiring enhanced performance objectives, integrating <a href="seismic-isolation">base isolation seismic design</a> reduces spectral acceleration demands and protects functionality. Addressing the dynamic behaviour of Gatineau’s soil profile early prevents costly foundation redesign and ensures long-term resilience against the region’s moderate-to-high seismicity.</p></div></section>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../liquefaction/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Soil liquefaction analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-isolation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Base isolation seismic design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismic-microzonation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismic microzonation</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section>
+<section class="block mid-cta" style="padding:2rem 0">
+      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#D9770615,#D9770608);border-left:4px solid #D97706;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
+        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
+        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
+        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnical-engineering.org" style="display:inline-block;background:#D97706;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnical-engineering.org</a></div>
+      </div>
+    </section><section class="block"><div class="container"><h2>Applicable standards</h2><p>CSA A23.3: Design of Concrete Structures (Annex D — Anchorage), PTI DC-35.1-14: Recommendations for Prestressed Rock and Soil Anchors, FHWA-NHI-16-072: Ground Anchors and Anchored Systems, ASTM A416: Low-Relaxation, Seven-Wire Steel Strand for Prestressed Concrete, NBCC 2020: Seismic hazard values for Outaouais region</p></div></section>
 
-<script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub-wrap");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body>
-</html>
+<section class="block tint"><div class="container"><h2>Technical parameters</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D97706;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D97706;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Design standard for grouted anchors</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">CSA A23.3 Annex D / PTI DC-35.1-14</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical tendon type (permanent)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">ASTM A416 Grade 270 strand (7-wire, low relaxation)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Corrosion protection class</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Class I (double protection) for permanent anchors per PTI</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Bond length verification</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Lift-off test to 133% of design load</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical unbonded length in Gatineau clay</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">6 to 10 m to reach till or bedrock</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Seismic coefficient (kh)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Per NBCC 2020 site class D/E for Outaouais</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Proof test acceptance criteria</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≤ 2 mm creep over 10 min at test load</td></tr></tbody></table></div></div></section>
+
+<section class="block"><div class="container"><h2>Frequently asked questions</h2><details><summary>What is the difference between an active and a passive anchor?</summary><p>An active anchor is prestressed after installation: we apply a jacking load and lock it off against the wall, which actively compresses the retained soil and minimizes movement before excavation proceeds. A passive anchor is not prestressed; it only develops resistance when the wall starts to deflect and the anchor stretches. In Gatineau's soft clay, we typically specify active anchors for the upper rows of a shoring system to limit wall deflection, and passive hollow-bar anchors for the lower rows where some movement is acceptable and rapid installation is a priority.</p></details><details><summary>How much does an anchor design package cost in Gatineau?</A straightforward temporary shoring design with one row of anchors and proof testing falls at the lower end, while a multi-row permanent anchored wall with performance tests on every anchor and extended creep monitoring is at the higher end.</p></details><details><summary>How do you account for the Champlain Sea clay in anchor design?</summary><p>Champlain Sea clay poses two specific challenges: low shear strength in the bond zone and time-dependent creep under sustained load. We address the first by extending the bond length into the underlying glacial till or bedrock whenever possible. If the anchor must be bonded in clay, we use a larger diameter drill hole and a post-grouting program to densify the interface. For creep, we limit the bond stress to a fraction of the ultimate value based on creep test data, following the PTI DC-35.1 approach. We also specify a 60-minute extended creep test for production anchors in clay to verify the lock-off load won't cause long-term relaxation.</p></details><details><summary>Do you handle the installation, or just the design?</summary><p>We provide the anchor design, sealed shop drawings, and field testing supervision. The physical installation — drilling, grouting, and stressing — is performed by qualified anchor drilling contractors. We work with several local Gatineau drillers and can coordinate the entire package, but we maintain an arm's-length relationship with the contractor to ensure unbiased test interpretation. This design-build oversight model is standard practice under PTI DC-35.1 and gives the owner confidence that the installed anchors meet the design intent.</p></details></div></section>
+
+
+    <section class="block map-block" style="padding:3rem 1.5rem">
+      <div style="max-width:1200px;margin:0 auto">
+        <h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2>
+        <p style="margin-bottom:1rem;color:#555">We serve projects across Gatineau and its metropolitan area. <a href="/" data-interlink="1">More info</a>.</p>
+        <div class="map-wrap" style="position:relative;max-width:520px;margin:0 auto;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB">
+          <div id="map_1eef10" style="position:absolute;top:0;left:0;width:100%;height:100%"></div>
+        </div>
+        <link rel="stylesheet" href="/css/leaflet.css">
+        <script src="/js/leaflet.js"></script>
+        <script>
+        (function(){
+          var m=L.map("map_1eef10",{zoomControl:true,attributionControl:true}).setView([45.4278,-75.711],11);
+          L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
+            attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:19,subdomains:"abcd"
+          }).addTo(m);L.marker([45.4278,-75.711],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(m);
+          L.circle([45.4278,-75.711],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Gatineau");
+        })();
+        </script>
+        <div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center">
+          <a href="https://www.openstreetmap.org/?mlat=45.4278&mlon=-75.711#map=11/45.4278/-75.711" target="_blank" rel="noopener">View larger map</a>
+        </div>
+      </div>
+    </section>
+
+<footer style="background:#1C1917;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technical updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">Get email updates</p><form action="mailto:contact@geotechnical-engineering.org" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Your email" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#D97706;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Subscribe</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Gatineau, Canada · <a href="mailto:contact@geotechnical-engineering.org" style="color:rgba(255,255,255,.7)">contact@geotechnical-engineering.org</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-14</div></footer>
+
+</body></html>
