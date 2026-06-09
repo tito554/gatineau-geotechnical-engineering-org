@@ -1,453 +1,363 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CPT Testing in Gatineau: Continuous Soil Profiling for Western...</title>
-<meta name="description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D577">
-<link rel="canonical" href="https://gatineau.geotechnical-engineering.org/cpt-test/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology">
-<meta property="og:description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D5778 for projects governed by NBCC seismic ">
-<meta property="og:url" content="https://gatineau.geotechnical-engineering.org/cpt-test/">
-<meta property="og:site_name" content="Geotechnical Engineering">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://gatineau.geotechnical-engineering.org/img/ensayo-cpt-1.webp">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology">
-<meta name="twitter:description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D5778 for projects governed by NBCC seismic ">
-<meta name="twitter:image" content="https://gatineau.geotechnical-engineering.org/img/ensayo-cpt-1.webp">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "@id": "https://gatineau.geotechnical-engineering.org/#org", "name": "Gatineau", "url": "https://gatineau.geotechnical-engineering.org/", "email": "contact@geotechnical-engineering.org", "address": {"@type": "PostalAddress", "addressLocality": "Gatineau", "addressCountry": "Canada"}, "geo": {"@type": "GeoCoordinates", "latitude": 45.4278, "longitude": -75.711}, "areaServed": {"@type": "City", "name": "Gatineau"}}, {"@type": "Service", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#service", "serviceType": "CPT (Cone Penetration Test)", "name": "CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology", "description": "Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D5778 for projects governed by NBCC seismic ", "provider": {"@id": "https://gatineau.geotechnical-engineering.org/#org"}, "areaServed": {"@type": "City", "name": "Gatineau"}, "url": "https://gatineau.geotechnical-engineering.org/cpt-test/"}, {"@type": "WebPage", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/", "url": "https://gatineau.geotechnical-engineering.org/cpt-test/", "name": "CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology", "inLanguage": "en", "isPartOf": {"@id": "https://gatineau.geotechnical-engineering.org/#website"}, "about": {"@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#service"}}, {"@type": "WebSite", "@id": "https://gatineau.geotechnical-engineering.org/#website", "url": "https://gatineau.geotechnical-engineering.org/", "name": "Gatineau", "inLanguage": "en"}, {"@type": "FAQPage", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#faq", "mainEntity": [{"@type": "Question", "name": "What is the typical cost of a CPT sounding in Gatineau?", "acceptedAnswer": {"@type": "Answer", "text": "Mobilization within the greater Gatineau area is quoted separately and depends on the number of soundings planned."}}, {"@type": "Question", "name": "How does CPT compare to boreholes for Gatineau's sensitive clays?", "acceptedAnswer": {"@type": "Answer", "text": "CPT provides a continuous vertical profile of soil response without the sample disturbance that affects standard penetration testing in sensitive Leda clays. The pore pressure measurement captures the in-situ stress state, which is critical for evaluating the risk of strength loss during construction. Boreholes remain useful for retrieving specimens for laboratory Atterberg and triaxial testing, so the two methods often complement each other on large projects."}}, {"@type": "Question", "name": "Can the CPT rig reach refusal in Gatineau's glacial till?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the 20-tonne tracked rig typically reaches refusal on the dense Precambrian-derived till that underlies much of the Gatineau area. Refusal is defined as a sustained tip resistance exceeding 50 MPa or an inability to maintain the standard penetration rate. At that point the sounding provides a reliable indicator of the bearing stratum depth."}}, {"@type": "Question", "name": "What NBCC site class information does a seismic CPT provide?", "acceptedAnswer": {"@type": "Answer", "text": "A seismic CPT measures downhole shear wave velocity (Vs) directly, which delivers the average Vs30 value used to assign NBCC site classes from A (hard rock) to E (soft soil). In Gatineau, many sites with deep Champlain Sea clay fall into class D or E, which amplifies the design spectral acceleration and must be accounted for in the structural analysis."}}]}]}</script>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
+<!DOCTYPE html><html lang="en"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CPT Testing in Gatineau: Continuous Soil Profiling for Western...</title><meta name="description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the"><link rel="canonical" href="https://gatineau.geotechnical-engineering.org/cpt-test/"><meta property="og:type" content="website"><meta property="og:title" content="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology"><meta property="og:description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the"><meta property="og:url" content="https://gatineau.geotechnical-engineering.org/cpt-test/"><meta property="og:site_name" content="Geotechnical Engineering"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://gatineau.geotechnical-engineering.org/img/ensayo-cpt-1.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology"><meta name="twitter:description" content="Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D5778 for projects governed by NBCC seismic "><meta name="twitter:image" content="https://gatineau.geotechnical-engineering.org/img/ensayo-cpt-1.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "@id": "https://gatineau.geotechnical-engineering.org/#org-3c16", "name": "Gatineau", "url": "https://gatineau.geotechnical-engineering.org/", "email": "contact@geotechnical-engineering.org", "address": {"@type": "PostalAddress", "addressLocality": "Gatineau", "addressCountry": "Canada"}, "geo": {"@type": "GeoCoordinates", "latitude": 45.4278, "longitude": -75.711}, "areaServed": {"@type": "City", "name": "Gatineau"}}, {"@type": "Service", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#service-3c16", "serviceType": "CPT (Cone Penetration Test)", "name": "CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology", "description": "Cone penetration testing (CPT) in Gatineau delivers real-time stratigraphy for sites across Hull, Aylmer, and the Gatineau Valley. Our lab operates to ASTM D5778 for projects governed by NBCC seismic ", "provider": {"@id": "https://gatineau.geotechnical-engineering.org/#org-3c16"}, "areaServed": {"@type": "City", "name": "Gatineau"}, "url": "https://gatineau.geotechnical-engineering.org/cpt-test/"}, {"@type": "WebPage", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/", "url": "https://gatineau.geotechnical-engineering.org/cpt-test/", "name": "CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology", "inLanguage": "en", "isPartOf": {"@id": "https://gatineau.geotechnical-engineering.org/#website-3c16"}, "about": {"@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#service-3c16"}}, {"@type": "WebSite", "@id": "https://gatineau.geotechnical-engineering.org/#website-3c16", "url": "https://gatineau.geotechnical-engineering.org/", "name": "Gatineau", "inLanguage": "en"}, {"@type": "FAQPage", "@id": "https://gatineau.geotechnical-engineering.org/cpt-test/#faq-3c16", "mainEntity": [{"@type": "Question", "name": "What is the typical cost of a CPT sounding in Gatineau?", "acceptedAnswer": {"@type": "Answer", "text": "Mobilization within the greater Gatineau area is quoted separately and depends on the number of soundings planned."}}, {"@type": "Question", "name": "How does CPT compare to boreholes for Gatineau's sensitive clays?", "acceptedAnswer": {"@type": "Answer", "text": "CPT provides a continuous vertical profile of soil response without the sample disturbance that affects standard penetration testing in sensitive Leda clays. The pore pressure measurement captures the in-situ stress state, which is critical for evaluating the risk of strength loss during construction. Boreholes remain useful for retrieving specimens for laboratory Atterberg and triaxial testing, so the two methods often complement each other on large projects."}}, {"@type": "Question", "name": "Can the CPT rig reach refusal in Gatineau's glacial till?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the 20-tonne tracked rig typically reaches refusal on the dense Precambrian-derived till that underlies much of the Gatineau area. Refusal is defined as a sustained tip resistance exceeding 50 MPa or an inability to maintain the standard penetration rate. At that point the sounding provides a reliable indicator of the bearing stratum depth."}}, {"@type": "Question", "name": "What NBCC site class information does a seismic CPT provide?", "acceptedAnswer": {"@type": "Answer", "text": "A seismic CPT measures downhole shear wave velocity (Vs) directly, which delivers the average Vs30 value used to assign NBCC site classes from A (hard rock) to E (soft soil). In Gatineau, many sites with deep Champlain Sea clay fall into class D or E, which amplifies the design spectral acceleration and must be accounted for in the structural analysis."}}]}]}</script>
+<style>/*afx*/@media(max-width:900px){.nav{display:none}.topbar{height:64px}.hero h1{font-size:1.6rem}}
+.card-img{height:170px;background-size:cover;background-position:center;background-color:#E5E7EB}.card-img img{width:100%!important;height:170px!important;object-fit:cover;display:block}
 body{font-family:'Inter',system-ui,sans-serif;background:#F5F5F4;color:#292524;line-height:1.55}
-a{color:inherit;text-decoration:none}
-.topbar{background:#1C1917;color:#FFF;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:80px;position:sticky;top:0;z-index:1010}
-.logo-area{display:flex;align-items:center;gap:.6rem;font-family:'Inter',system-ui,sans-serif}
-.logo-text{font-weight:700;letter-spacing:.02em;line-height:1}
-.logo-text .main{font-size:1.05rem}
 .logo-text .sub{font-size:1.05rem;color:#D97706}
-.nav{display:flex;gap:1rem;align-items:center}
-.nav-item{position:relative;font-size:1.05rem;color:#FFF;cursor:pointer;padding:.8rem 0;white-space:nowrap}
-.nav-item.has-dd:hover .dd{display:flex}
-.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:260px;padding:.8rem 0;box-shadow:0 10px 30px rgba(0,0,0,.2);border-top:3px solid #D97706;flex-direction:column;z-index:1011;max-height:420px;overflow-y:auto}
-.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
-.dd a{padding:.5rem 1.2rem;color:#292524;font-size:.85rem;display:block;white-space:normal}
-.dd a:hover{background:#F5F5F5;color:#B45309}
-.nav-contact-btn{background:#B45309;color:#FFF;padding:.6rem 1.4rem;font-size:.82rem;font-weight:600;letter-spacing:.05em}
-.hero{background:linear-gradient(135deg,#B45309 0%,#1C1917 100%);min-height:400px;display:flex;align-items:center;padding:2.5rem 2rem;color:#FFF}
-.hero-inner{max-width:900px;margin:0 auto;width:100%}
-.crumb{font-size:.78rem;margin-bottom:1rem;letter-spacing:.03em;color:rgba(255,255,255,.85)}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#D97706}
-.hero h1{font-family:'Inter',sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}
-.hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
-.hero-cta{background:#D97706;color:#FFF;padding:.8rem 1.8rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;display:inline-block}
-.container{max-width:1200px;margin:0 auto;padding:0 2rem}
-section.block{padding:3.5rem 0}
-section.block h2{font-family:'Inter',sans-serif;font-size:1.6rem;color:#1C1917;margin-bottom:1.2rem;font-weight:700;letter-spacing:-.01em}
-section.block p{margin-bottom:1rem;line-height:1.7;color:#292524;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-section.tint{background:#F7F8FA}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem;margin-top:2rem}
-.svc-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s}
-.svc-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.08);transform:translateY(-2px)}
-.card-img{height:170px;background-size:cover;background-position:center;background-color:#E5E7EB}
-.card-body{padding:1.3rem}
-.card-body h3{color:#B45309;font-size:1.25rem;font-weight:700;margin-bottom:1rem;font-family:'Inter',sans-serif}
-.card-links a{display:block;color:#B45309;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
-.card-links a:hover{color:#D97706}
 .card-viewall{display:inline-block;color:#D97706;font-size:.72rem;font-weight:700;letter-spacing:.08em;margin-top:.8rem}
 table{width:100%;border-collapse:collapse;margin:1rem 0}
-table th{background:#1C1917;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
-table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
-table tr:nth-child(even) td{background:#F9FAFB}
-details{background:#FFF;border:1px solid #E5E7EB;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
-details summary{font-weight:600;color:#1C1917;list-style:none}
-details[open] summary{margin-bottom:.7rem}
-details p{color:#292524;line-height:1.65;margin:0}
-.cta-box{background:#1C1917;color:#FFF;padding:2.5rem 2rem;text-align:center;border-radius:12px;margin:3rem 0}
-.cta-box h2{color:#FFF;margin-bottom:.6rem}
-.cta-box a{color:#D97706;font-weight:600}
+*{margin:0;padding:0;box-sizing:border-box}
+.topbar{background:#1C1917;color:#FFF;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:80px;position:sticky;top:0;z-index:1010}
+section.tint{background:#F7F8FA}
+.crumb-d44d{font-size:.78rem;margin-bottom:1rem;letter-spacing:.03em;color:rgba(255,255,255,.85)}
+.hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
 footer{background:#1C1917;color:#FFF;padding:2.5rem 2rem;text-align:center;font-size:.85rem;opacity:.88;margin-top:3rem}
+.svc-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.08);transform:translateY(-2px)}
+.nav-contact-btn{background:#B45309;color:#FFF;padding:.6rem 1.4rem;font-size:.82rem;font-weight:600;letter-spacing:.05em}
+table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
+.logo-area{display:flex;align-items:center;gap:.6rem;font-family:'Inter',system-ui,sans-serif}
+.crumb-d44d a:hover{color:#D97706}
+details p{color:#292524;line-height:1.65;margin:0}
+details[open] summary{margin-bottom:.7rem}
+section.block h2{font-family:'Inter',sans-serif;font-size:1.6rem;color:#1C1917;margin-bottom:1.2rem;font-weight:700;letter-spacing:-.01em}
+.nav-item.has-dd:hover .dd{display:flex}
+section.block{padding:3.5rem 0}
+.hero-inner{max-width:900px;margin:0 auto;width:100%}
+.card-body h3{color:#B45309;font-size:1.25rem;font-weight:700;margin-bottom:1rem;font-family:'Inter',sans-serif}
+.dd a{padding:.5rem 1.2rem;color:#292524;font-size:.85rem;display:block;white-space:normal}
+.crumb-d44d a{color:#FFF;text-decoration:underline;font-weight:600}
+.dd a:hover{background:#F5F5F5;color:#B45309}
+.hero-cta{background:#D97706;color:#FFF;padding:.8rem 1.8rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;display:inline-block}
+details{background:#FFF;border:1px solid #E5E7EB;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
+.hero h1{font-family:'Inter',sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}
+table th{background:#1C1917;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
+.cta-box-d44d h2{color:#FFF;margin-bottom:.6rem}
+section.block p{margin-bottom:1rem;line-height:1.7;color:#292524;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.cta-box-d44d{background:#1C1917;color:#FFF;padding:2.5rem 2rem;text-align:center;border-radius:12px;margin:3rem 0}
+details summary{font-weight:600;color:#1C1917;list-style:none}
+.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
+.svc-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem;margin-top:2rem}
+.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:260px;padding:.8rem 0;box-shadow:0 10px 30px rgba(0,0,0,.2);border-top:3px solid #D97706;flex-direction:column;z-index:1011;max-height:420px;overflow-y:auto}
 footer a{color:#D97706}
-@media(max-width:900px){.nav{display:none}.topbar{height:64px}.hero h1{font-size:1.6rem}}
-</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="post-fixes-v2">
-/* Inline links visibles en prosa */
-p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
-p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.nav{display:flex;gap:1rem;align-items:center}
+.card-body{padding:1.3rem}
+.container{max-width:1200px;margin:0 auto;padding:0 2rem}
+.hero{background:linear-gradient(135deg,#B45309 0%,#1C1917 100%);min-height:400px;display:flex;align-items:center;padding:2.5rem 2rem;color:#FFF}
+.cta-box-d44d a{color:#D97706;font-weight:600}
+.logo-text .main{font-size:1.05rem}
+.card-links a:hover{color:#D97706}
+.logo-text{font-weight:700;letter-spacing:.02em;line-height:1}
+.card-links a{display:block;color:#B45309;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
+.nav-item{position:relative;font-size:1.05rem;color:#FFF;cursor:pointer;padding:.8rem 0;white-space:nowrap}
+a{color:inherit;text-decoration:none}
+table tr:nth-child(even) td{background:#F9FAFB}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*/p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+body>*{max-width:100vw}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
 /* Sidebar hover adaptive */
 aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
 aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
-aside .cat-name,aside .sb-home,aside nav a{color:inherit}
 aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
-/* Cat-toggle sin caja */
-.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
-.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
-/* Nav-arrow sin caja */
-.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
-/* Navbar compacto */
-.navbar{padding:.65rem 1rem !important}
-.navbar .nav{gap:.55rem !important}
-.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
-.logo-box,.brand-name,.brand{font-size:.82rem !important}
 /* Layout defensive */
 body{overflow-x:clip;max-width:100vw}
-body>*{max-width:100vw}
-</style>
-<style id="nav-fix-v3">
-nav.navbar, header nav, .nav-bar, .top-nav { font-size: 1rem !important; }
-nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a { font-size: 1rem !important; color: #FFFFFF !important; font-weight: 500 !important; }
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+.navbar .nav{gap:.55rem !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}</style><style>/*afx*/nav[aria-label="breadcrumb"] a:hover, .crumb-d44d a:hover { color: #FCD34D !important; }
 nav.navbar a:hover, header nav a:hover, .nav-cat-link:hover { color: #FCD34D !important; text-decoration: underline; }
-nav[aria-label="breadcrumb"], .crumb, .breadcrumb { color: rgba(255,255,255,.85) !important; font-size: .82rem !important; }
-nav[aria-label="breadcrumb"] a, .crumb a, .breadcrumb a { color: #FFFFFF !important; text-decoration: underline; font-weight: 600; }
-nav[aria-label="breadcrumb"] a:hover, .crumb a:hover { color: #FCD34D !important; }
-.crumb a[href="/"], .breadcrumb a[href="/"], a.home-link { color: #FFFFFF !important; }
-.brand-name, .logo-text, .main, .brand { color: #FFFFFF !important; }
-</style>
-<style id="comprehensive-defaults-v1">
-/* Reset basico */
-* { box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; margin: 0; line-height: 1.6; color: #1E293B; background: #F8FAFC; }
-
-/* Layout wrapper */
-.layout, .main-wrapper, .content-area { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
-
-/* Header */
-.header, .main-header, header.main-header { background: #0F172A; color: #FFF; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
-.header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-.header-email { color: #FCD34D; text-decoration: none; }
-.brand, .brand-text, .brand-name { color: #FFFFFF; font-weight: 700; font-size: 1.25rem; line-height: 1.1; }
-.brand-city { color: #94A3B8; font-size: .85rem; display: block; }
-.brand-logo { display: inline-block; vertical-align: middle; }
-
-/* Breadcrumb / crumb */
-.crumb, .breadcrumb { padding: .5rem 0; font-size: .85rem; color: rgba(255,255,255,.85); }
-.crumb a, .breadcrumb a { color: #FFFFFF; text-decoration: underline; }
-.crumb a:hover, .breadcrumb a:hover { color: #FCD34D; }
-
-/* Body wrapper - layout flex */
-.layout { display: grid; grid-template-columns: 240px 1fr; gap: 1.5rem; margin: 1.5rem auto; padding: 0 1.5rem; max-width: 1280px; }
-@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
-
-/* Sidebar */
-.sb-home, .sidebar, aside { background: #1E293B; color: #FFFFFF; border-radius: 10px; padding: 1rem; }
-.sb-home a, .sidebar a, aside a { color: #FFFFFF; text-decoration: none; display: block; padding: .5rem .75rem; border-radius: 6px; transition: background .15s; }
-.sb-home a:hover, .sidebar a:hover { background: rgba(255,255,255,.08); }
-.cat-row, .cat-item { display: flex; align-items: center; justify-content: space-between; padding: .4rem .75rem; }
-.cat-name { color: #FFFFFF; font-weight: 500; flex: 1; }
-.cat-toggle, .cat-arrow { background: transparent; border: 0; color: #FFFFFF; cursor: pointer; padding: .2rem .4rem; }
-.cat-sub { padding-left: 1rem; }
-.cat-sub a { font-size: .85rem; color: rgba(255,255,255,.85); padding: .3rem .75rem; }
-
-/* Block / section base */
-.block { padding: 2rem 1.5rem; }
-.block > div { max-width: 1200px; margin: 0 auto; }
-.map-block { padding: 2rem 0; background: #F1F5F9; }
-.map-wrap { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
-#mapa-ciudad { width: 100%; height: 380px; border-radius: 8px; }
-
+.crumb-d44d a[href="/"], .breadcrumb a[href="/"], a.home-link { color: #FFFFFF !important; }
+nav[aria-label="breadcrumb"], .crumb-d44d, .breadcrumb { color: rgba(255,255,255,.85) !important; font-size: .82rem !important; }
+nav[aria-label="breadcrumb"] a, .crumb-d44d a, .breadcrumb a { color: #FFFFFF !important; text-decoration: underline; font-weight: 600; }
+nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a { font-size: 1rem !important; color: #FFFFFF !important; font-weight: 500 !important; }
+nav.navbar, header nav, .nav-bar, .top-nav { font-size: 1rem !important; }
+.brand-name, .logo-text, .main, .brand { color: #FFFFFF !important; }</style><style>/*afx*/@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
 /* Cards / grid */
 .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.card { background: #FFF; border: 1px solid #E5E7EB; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: inherit; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: all .2s; }
-.card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.08); border-color: #1D4ED8; }
-
-/* H1/H2 */
-h1 { color: #0F172A; font-size: 1.85rem; margin: 1rem 0 1.5rem; line-height: 1.2; }
 h2 { color: #1E293B; font-size: 1.35rem; margin: 1.5rem 0 .8rem; font-weight: 700; }
-h3 { color: #1E293B; font-size: 1.1rem; margin: 1rem 0 .5rem; }
-p { margin: 0 0 1rem; color: #374151; }
-a { color: #1D4ED8; }
-
-/* Mid CTA */
-.mid-cta { padding: 2rem 0; }
-.mid-cta > div { max-width: 720px; margin: 0 auto; background: linear-gradient(135deg, #1D4ED815, #1D4ED808); border-left: 4px solid #1D4ED8; padding: 1.6rem 1.8rem; border-radius: 8px; text-align: center; }
-
-/* Footer */
-footer, .footer { background: #0F172A; color: #94A3B8; padding: 1.5rem; text-align: center; margin-top: 2rem; font-size: .85rem; }
-footer a, .footer a { color: #FCD34D; }
-
+.header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.brand, .brand-text, .brand-name { color: #FFFFFF; font-weight: 700; font-size: 1.25rem; line-height: 1.1; }
 /* Authority refs */
 .authority-refs { color: #94A3B8; font-size: .8rem; }
+.cat-name { color: #FFFFFF; font-weight: 500; flex: 1; }
+p { margin: 0 0 1rem; color: #374151; }
+/* Mid CTA */
+.mid-cta-d44d { padding: 2rem 0; }
+h3 { color: #1E293B; font-size: 1.1rem; margin: 1rem 0 .5rem; }
+.mid-cta-d44d > div { max-width: 720px; margin: 0 auto; background: linear-gradient(135deg, #1D4ED815, #1D4ED808); border-left: 4px solid #1D4ED8; padding: 1.6rem 1.8rem; border-radius: 8px; text-align: center; }
+.card { background: #FFF; border: 1px solid #E5E7EB; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: inherit; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: all .2s; }
+.sb-home a:hover, .sidebar a:hover { background: rgba(255,255,255,.08); }
+.crumb-d44d a:hover, .breadcrumb a:hover { color: #FCD34D; }
+#mapa-ciudad { width: 100%; height: 380px; border-radius: 8px; }
 .updated-info { color: #94A3B8; font-size: .8rem; font-style: italic; }
-</style>
-<style id="kill-sticky-header-v1">
-/* MATAR position:fixed legacy de fase-i-fixes */
-nav.navbar, .header-top, .main-header, header.header, .header {
-  position: static !important;
-  top: auto !important;
-  left: auto !important;
-  width: auto !important;
-}
-body { padding-top: 0 !important; }
-
+/* H1/H2 */
+h1 { color: #0F172A; font-size: 1.85rem; margin: 1rem 0 1.5rem; line-height: 1.2; }
+.cat-sub a { font-size: .85rem; color: rgba(255,255,255,.85); padding: .3rem .75rem; }
+/* Footer */
+footer, .footer { background: #0F172A; color: #94A3B8; padding: 1.5rem; text-align: center; margin-top: 2rem; font-size: .85rem; }
+.sb-home a, .sidebar a, aside a { color: #FFFFFF; text-decoration: none; display: block; padding: .5rem .75rem; border-radius: 6px; transition: background .15s; }
+.brand-city { color: #94A3B8; font-size: .85rem; display: block; }
+/* Layout wrapper */
+.layout, .main-wrapper, .content-area { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; margin: 0; line-height: 1.6; color: #1E293B; background: #F8FAFC; }
+.cat-sub { padding-left: 1rem; }
+.cat-toggle, .cat-arrow { background: transparent; border: 0; color: #FFFFFF; cursor: pointer; padding: .2rem .4rem; }
+.map-wrap { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+/* Breadcrumb / crumb */
+.crumb-d44d, .breadcrumb { padding: .5rem 0; font-size: .85rem; color: rgba(255,255,255,.85); }
+/* Sidebar */
+.sb-home, .sidebar, aside { background: #1E293B; color: #FFFFFF; border-radius: 10px; padding: 1rem; }
+/* Block / section base */
+.block { padding: 2rem 1.5rem; }
+.crumb-d44d a, .breadcrumb a { color: #FFFFFF; text-decoration: underline; }
+.header-email { color: #FCD34D; text-decoration: none; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.08); border-color: #1D4ED8; }
+a { color: #1D4ED8; }
+.brand-logo { display: inline-block; vertical-align: middle; }
+.block > div { max-width: 1200px; margin: 0 auto; }
+/* Body wrapper - layout flex */
+.layout { display: grid; grid-template-columns: 240px 1fr; gap: 1.5rem; margin: 1.5rem auto; padding: 0 1.5rem; max-width: 1280px; }
+/* Reset basico */
+* { box-sizing: border-box; }
+/* Header */
+.header, .main-header, header.main-header { background: #0F172A; color: #FFF; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+.cat-row, .cat-item { display: flex; align-items: center; justify-content: space-between; padding: .4rem .75rem; }
+footer a, .footer a { color: #FCD34D; }
+.map-block { padding: 2rem 0; background: #F1F5F9; }</style><style>/*afx*/body { padding-top: 0 !important; }
 /* Sidebar sticky pero NO encima del header */
 .sb-home, aside.sidebar, .sidebar, aside {
-  position: sticky !important;
-  top: 1rem !important;
-  z-index: 2 !important;
-  width: 260px !important;
+position: sticky !important;
+top: 1rem !important;
+z-index: 2 !important;
+width: 260px !important;
 }
-
 /* Cards en grid: layout flex/grid sin colapsar */
 .cards-grid, [style*="display:grid"][style*="auto-fill"] {
-  margin-top: 1rem !important;
+margin-top: 1rem !important;
 }
-
 /* Layout main: padding-top para clearance */
 main, .main-content, .content-area, .layout > *:not(aside):not(.sidebar) {
-  padding-top: 0 !important;
+padding-top: 0 !important;
 }
-</style>
-<style id="srf-header-fix-v1">
-/* === FIX: header SRF truncado (todos los subs srf) — 2026-05-17 ===
-   Diagnóstico: 9 nav-items empujan logo fuera del viewport (body overflow-x:clip corta izq).
-   navbar-fixed-override dejó body{padding-top:60px} huérfano + sidebar-overflow-fix aplicó
-   color:#FFF en nav links (blanco sobre blanco). kill-sticky hizo position:static → OK pero
-   body padding quedó. Fix integral abajo. */
-
-/* 1. Eliminar padding-top huérfano (de navbar-fixed-override) */
-body { padding-top: 0 !important; }
-
-/* 2. Navbar sticky limpio — fondo blanco, z-index alto, sin desborde */
-nav.navbar {
-  position: sticky !important;
-  top: 0 !important;
-  left: auto !important;
-  right: auto !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-  z-index: 1010 !important;
-  overflow: visible !important;
-  background: #FFF !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  padding: .65rem 1rem !important;
-  gap: .5rem !important;
-}
-
-/* 3. Logo-area: NO squeezear, ancho mínimo garantizado */
-nav.navbar .logo-area {
-  flex-shrink: 0 !important;
-  min-width: 120px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: .6rem !important;
-  overflow: visible !important;
-}
-
-/* 4. Logo-box: visible, color correcto (blanco sobre negro) */
+/* MATAR position:fixed legacy de fase-i-fixes */
+nav.navbar, .header-top, .main-header, header.header, .header {
+position: static !important;
+top: auto !important;
+left: auto !important;
+width: auto !important;
+}</style><style>/*afx*//* 4. Logo-box: visible, color correcto (blanco sobre negro) */
 nav.navbar .logo-box {
-  background: #141414 !important;
-  color: #FFF !important;
-  padding: .35rem .65rem !important;
-  font-size: .85rem !important;
-  font-weight: 900 !important;
-  flex-shrink: 0 !important;
+background: #141414 !important;
+color: #FFF !important;
+padding: .35rem .65rem !important;
+font-size: .85rem !important;
+font-weight: 900 !important;
+flex-shrink: 0 !important;
 }
-
+/* 8. CTA button en navbar (si existe) */
+nav.navbar .cta-btn {
+color: #141414 !important;
+background: #B08D4A !important;
+font-size: .7rem !important;
+padding: .4rem .75rem !important;
+white-space: nowrap !important;
+flex-shrink: 0 !important;
+}
 /* 5. Logo-text: color oscuro sobre fondo blanco navbar */
 nav.navbar .logo-text {
-  color: #141414 !important;
-  font-size: .78rem !important;
-  font-weight: 700 !important;
-  text-shadow: none !important;
-  white-space: nowrap !important;
+color: #141414 !important;
+font-size: .78rem !important;
+font-weight: 700 !important;
+text-shadow: none !important;
+white-space: nowrap !important;
 }
-
 /* 6. Nav items: texto OSCURO (navbar bg es blanco) — anula sidebar-overflow-fix color:#FFF */
 nav.navbar .nav-item,
 nav.navbar .nav-item a,
 nav.navbar .nav-cat-link,
 nav.navbar .nav-item span:not(.dd span) {
-  color: #141414 !important;
-  font-size: .72rem !important;
-  font-weight: 600 !important;
-  text-shadow: none !important;
+color: #141414 !important;
+font-size: .72rem !important;
+font-weight: 600 !important;
+text-shadow: none !important;
+}
+/* 10. Hero posición correcta (NO empujado por padding-top fantasma) */
+header.hero, .hero {
+position: relative !important;
+margin-top: 0 !important;
+padding-top: 3rem !important;
+}
+huérfano + sidebar-overflow-fix aplicó
+color:#FFF en nav links (blanco sobre blanco). kill-sticky hizo position:static → OK pero
+body padding quedó. Fix integral abajo. */
+/* 1. Eliminar padding-top huérfano (de navbar-fixed-override) */
+body { padding-top: 0 !important; }
+/* 3. Logo-area: NO squeezear, ancho mínimo garantizado */
+nav.navbar .logo-area {
+flex-shrink: 0 !important;
+min-width: 120px !important;
+display: flex !important;
+align-items: center !important;
+gap: .6rem !important;
+overflow: visible !important;
 }
 nav.navbar .nav-item a:hover,
 nav.navbar .nav-cat-link:hover {
-  color: #B08D4A !important;
-  text-decoration: none !important;
+color: #B08D4A !important;
+text-decoration: none !important;
 }
-
-/* 7. Nav contenedor: flex-wrap para que los items no revienten el ancho */
-nav.navbar .nav {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: .3rem .5rem !important;
-  align-items: center !important;
-  overflow: visible !important;
-  flex: 1 1 auto !important;
-  min-width: 0 !important;
-  justify-content: flex-end !important;
+/* === FIX: header SRF truncado (todos los subs srf) — 2026-05-17 ===
+Diagnóstico: 9 nav-items empujan logo fuera del viewport (body overflow-x:clip corta izq).
+navbar-fixed-override dejó body{padding-top:60px}
+/* 2. Navbar sticky limpio — fondo blanco, z-index alto, sin desborde */
+nav.navbar {
+position: sticky !important;
+top: 0 !important;
+left: auto !important;
+right: auto !important;
+width: 100% !important;
+box-sizing: border-box !important;
+z-index: 1010 !important;
+overflow: visible !important;
+background: #FFF !important;
+display: flex !important;
+align-items: center !important;
+justify-content: space-between !important;
+padding: .65rem 1rem !important;
+gap: .5rem !important;
 }
-
-/* 8. CTA button en navbar (si existe) */
-nav.navbar .cta-btn {
-  color: #141414 !important;
-  background: #B08D4A !important;
-  font-size: .7rem !important;
-  padding: .4rem .75rem !important;
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
-}
-
 /* 9. Dropdown z-index sobre hero */
 nav.navbar .dd {
-  z-index: 1100 !important;
-  color: #141414 !important;
+z-index: 1100 !important;
+color: #141414 !important;
+}
+/* 7. Nav contenedor: flex-wrap para que los items no revienten el ancho */
+nav.navbar .nav {
+display: flex !important;
+flex-wrap: wrap !important;
+gap: .3rem .5rem !important;
+align-items: center !important;
+overflow: visible !important;
+flex: 1 1 auto !important;
+min-width: 0 !important;
+justify-content: flex-end !important;
 }
 nav.navbar .dd a {
-  color: #141414 !important;
-  font-size: .82rem !important;
-}
-
-/* 10. Hero posición correcta (NO empujado por padding-top fantasma) */
-header.hero, .hero {
-  position: relative !important;
-  margin-top: 0 !important;
-  padding-top: 3rem !important;
-}
-</style>
-<style id="subwrap-fix-v8">
-/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
-.cat-item, details {
-  display: block !important;
-  position: relative !important;
-}
-/* cat-row interno: SI flex para alinear name + toggle */
-.cat-row {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  width: 100% !important;
-}
-.cat-name {
-  flex: 1 1 auto !important;
-  min-width: 0 !important;
-  word-break: normal !important;
-  overflow-wrap: break-word !important;
-  white-space: normal !important;
-  order: 1 !important;
-}
-.cat-toggle, .cat-arrow {
-  flex-shrink: 0 !important;
-  order: 2 !important;
+color: #141414 !important;
+font-size: .82rem !important;white-space:normal}</style><style>/*afx*//* Sub-item links */
+.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
+display: block !important;
+width: 100% !important;
+font-size: .82rem !important;
+line-height: 1.25 !important;
+padding: .35rem 1rem .35rem 1.8rem !important;
+white-space: normal !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+box-sizing: border-box !important;
 }
 /* cat-sub-wrap: full width abajo */
 .cat-sub-wrap, .cat-sub, .nav-cat-sub {
-  flex-basis: 100% !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  order: 3 !important;
-  position: static !important;
-  background: rgba(0,0,0,.15) !important;
-  padding: .4rem 0 .8rem !important;
+flex-basis: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
+order: 3 !important;
+position: static !important;
+background: rgba(0,0,0,.15) !important;
+padding: .4rem 0 .8rem !important;
 }
-/* Sub-item links */
-.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
-  display: block !important;
-  width: 100% !important;
-  font-size: .82rem !important;
-  line-height: 1.25 !important;
-  padding: .35rem 1rem .35rem 1.8rem !important;
-  white-space: normal !important;
-  word-break: normal !important;
-  overflow-wrap: break-word !important;
-  box-sizing: border-box !important;
+.cat-toggle, .cat-arrow {
+flex-shrink: 0 !important;
+order: 2 !important;
 }
-</style>
-</head><body>
-
-<div class="topbar">
-    <div class="logo-area">
-        <div class="logo-text"><div class="main">GEOTECHNICAL ENGINEERING</div><div class="sub">GATINEAU</div></div>
-    </div>
-    <div class="nav">
-        <div class="nav-item has-dd"><a href="/investigation/" class="nav-cat-link" style="color:inherit;text-decoration:none">Investigation</a> <span>▾</span><div class="dd"><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ Testing</a> <span>▾</span><div class="dd"><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="nav-item has-dd"><a href="/laboratory/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratory</a> <span>▾</span><div class="dd"><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a><a href="/">Atterberg limits</a></div></div><div class="nav-item has-dd"><a href="/foundations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Foundations</a> <span>▾</span><div class="dd"><a href="/">Pile foundation design</a></div></div><div class="nav-item has-dd"><a href="/slopes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Slopes & Walls</a> <span>▾</span><div class="dd"><a href="/slope-stability/">Slope stability analysis</a><a href="/">Active/passive anchor design</a><a href="/">Retaining wall design</a></div></div><div class="nav-item has-dd"><a href="/flexible-pavement/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ground improvement</a> <span>▾</span><div class="dd"><a href="/">Stone column design</a><a href="/liquefaction/">Vibrocompaction design</a></div></div><div class="nav-item has-dd"><a href="/excavations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Underground Excavations</a> <span>▾</span><div class="dd"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/excavations/">Geotechnical design of deep excavations</a><a href="/excavations/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="/" class="nav-cat-link" style="color:inherit;text-decoration:none">Roadway</a> <span>▾</span><div class="dd"><a href="/flexible-pavement/">Flexible pavement design</a><a href="/flexible-pavement/">Rigid pavement design</a><a href="/cbr-road/">CBR study for road design</a></div></div><div class="nav-item has-dd"><a href="/seismic/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismic</a> <span>▾</span><div class="dd"><a href="/liquefaction/">Soil liquefaction analysis</a><a href="/excavations/">Base isolation seismic design</a><a href="/excavations/">Seismic microzonation</a></div></div>
-    </div>
-</div>
-
-<header class="hero"><div class="hero-inner">
-    <div class="crumb"><a href="/">Home</a> › <span>Investigation</span> › <span>CPT (Cone Penetration Test)</span></div>
-    <h1>CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology</h1>
-    <p class="tagline">Sound ground. Sound decisions.</p>
-    <a class="hero-cta" href="#main-content">LEARN MORE</a>
-</div></header>
-
-<section id="main-content" class="block"><div class="container"><p>The CPT rig working in Gatineau is a 20-tonne tracked unit fitted with a 15 cm² piezocone that records tip resistance, sleeve friction, and pore pressure simultaneously at 2 cm intervals. It pushes through the sensitive Leda clays and glacial tills that define the Outaouais corridor, with a hydraulic ram that can penetrate dense basal till at depths exceeding 25 metres. For projects near the Ottawa River, where alluvial silts overlie Champlain Sea deposits, the cone's u₂ filter element provides the dissipation data needed to estimate consolidation rates before foundation design begins. The truck-mounted configuration allows access to tight lots in the Hull sector without dismantling the push system between soundings.</p><blockquote style="border-left:4px solid #D97706;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">A single CPT sounding in Gatineau's Champlain clays replaces about four boreholes of SPT sampling for stratigraphic resolution, cutting field time by more than half.</blockquote></div></section>
-
-
-
-<section class="block tint"><div class="container"><h2>Our service areas</h2><div class="services-grid">
-        <div class="svc-card">
-            <div class="card-img" style="background-image:url('/img/estabilidad-taludes-1.webp')"></div>
-            <div class="card-body">
-                <h3>Slopes & Walls</h3>
-                <div class="card-links"><a href="/slope-stability/">Slope stability analysis ›</a><a href="/">Active/passive anchor design ›</a><a href="/">Retaining wall design ›</a></div>
-                <a class="card-viewall" href="#taludes">VIEW ALL SLOPES & WALLS ›</a>
-            </div>
-        </div>
-        <div class="svc-card">
-            <div class="card-img" style="background-image:url('/img/tuneles-suelo-blando-1.webp')"></div>
-            <div class="card-body">
-                <h3>Underground Excavations</h3>
-                <div class="card-links"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels ›</a><a href="/excavations/">Geotechnical design of deep excavations ›</a><a href="/excavations/">Geotechnical excavation monitoring ›</a></div>
-                <a class="card-viewall" href="#excavaciones-subterraneo">VIEW ALL UNDERGROUND EXCAVATIONS ›</a>
-            </div>
-        </div>
-        <div class="svc-card">
-            <div class="card-img" style="background-image:url('/img/pavimento-flexible-1.webp')"></div>
-            <div class="card-body">
-                <h3>Roadway</h3>
-                <div class="card-links"><a href="/flexible-pavement/">Flexible pavement design ›</a><a href="/flexible-pavement/">Rigid pavement design ›</a><a href="/cbr-road/">CBR study for road design ›</a></div>
-                <a class="card-viewall" href="#geotecnia-vial">VIEW ALL ROADWAY ›</a>
-            </div>
-        </div></div></div></section>
-
-
-
-<section class="block"><div class="container"><h2>Methodology and scope</h2><div>Gatineau sits on a complex Quaternary stratigraphy where the Champlain Sea inundated the region roughly 11,000 years ago, depositing the thick sequence of silty clays that now dominates the low-lying areas of Hull and the Gatineau sector. These soils exhibit pronounced sensitivity — values above 30 are common — which means the remoulded strength measured by the CPT sleeve friction can drop to a fraction of the peak value. <br>For sites near the Gatineau Hills transition, the cone encounters interbedded glacial till that demands high push forces, a condition where we often pair the CPT with <a href="/seismic-refraction/">seismic refraction</a> to map the bedrock surface before choosing rig capacity. <br>The pore pressure parameter Bq derived from the u₂ reading helps identify the depth of the groundwater table, a critical input for <a href="/slope-stability/">slope stability</a> analysis when excavating for underground parking near the escarpment. In sandy lenses found at the base of the clay sequence, the normalized friction ratio provides a reliable check against published <a href="/liquefaction/">liquefaction</a> susceptibility criteria under the NBCC seismic provisions.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><img src="/img/ensayo-cpt-5.webp" alt="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology" loading="lazy" style="width:100%;max-height:210px;object-fit:cover;display:block" width="800" height="600" loading="lazy" decoding="async"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technical reference — Gatineau</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Local considerations</h2><p>In Gatineau, many times we see that contractors underestimate how quickly the bearing layer drops from the Rockcliffe escarpment toward the river plain. A site on Chemin de la Montagne might show refusal at 4 metres in till, while three blocks south toward Boulevard Saint-Joseph the same refusal depth exceeds 22 metres because the bedrock surface plunges beneath a deep paleochannel. Without a continuous CPT trace, a designer could misinterpret a dense sand lens as bearing stratum and undercut the pile length by several metres. The consequence shows up later as differential settlement between the wing and the tower of a multi-family building, particularly when the clay contains sensitive fabric that loses strength upon remoulding during excavation.</p></div></section>
-    <section class="block mid-cta" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#D9770615,#D9770608);border-left:4px solid #D97706;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnical-engineering.org" style="display:inline-block;background:#D97706;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnical-engineering.org</a></div>
-      </div>
-    </section><section class="block"><div class="container"><h2>Applicable standards</h2><p>ASTM D5778-20 Standard Test Method for Electronic Friction Cone and Piezocone Penetration Testing of Soils, NBCC 2020 Division B, Section 4.1.8 (Seismic Site Classification), CSA S6:19 Section 6 (Geotechnical Investigation for Bridges), Robertson & Cabal (2015) CPT Soil Behaviour Type Classification</p></div></section>
-
-<section class="block tint"><div class="container"><h2>Technical parameters</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D97706;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D97706;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Tip resistance (qc)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.05 – 50 MPa (typical Gatineau range)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Sleeve friction (fs)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2 – 500 kPa</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Friction ratio (Rf)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.1% – 8% (sensitive clays < 2%)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Pore pressure (u₂)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0 – 2.5 MPa</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Standard cone apex</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15 cm² (ASTM D5778)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Penetration rate</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">20 mm/s ± 5 mm/s</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Maximum depth (local)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 m (limited by till refusal)</td></tr></tbody></table></div></div></section>
-
-<section class="block"><div class="container"><h2>Frequently asked questions</h2><details><summary>What is the typical cost of a CPT sounding in Gatineau?</Mobilization within the greater Gatineau area is quoted separately and depends on the number of soundings planned.</p></details><details><summary>How does CPT compare to boreholes for Gatineau's sensitive clays?</summary><p>CPT provides a continuous vertical profile of soil response without the sample disturbance that affects standard penetration testing in sensitive Leda clays. The pore pressure measurement captures the in-situ stress state, which is critical for evaluating the risk of strength loss during construction. Boreholes remain useful for retrieving specimens for laboratory Atterberg and triaxial testing, so the two methods often complement each other on large projects.</p></details><details><summary>Can the CPT rig reach refusal in Gatineau's glacial till?</summary><p>Yes, the 20-tonne tracked rig typically reaches refusal on the dense Precambrian-derived till that underlies much of the Gatineau area. Refusal is defined as a sustained tip resistance exceeding 50 MPa or an inability to maintain the standard penetration rate. At that point the sounding provides a reliable indicator of the bearing stratum depth.</p></details><details><summary>What NBCC site class information does a seismic CPT provide?</summary><p>A seismic CPT measures downhole shear wave velocity (Vs) directly, which delivers the average Vs30 value used to assign NBCC site classes from A (hard rock) to E (soft soil). In Gatineau, many sites with deep Champlain Sea clay fall into class D or E, which amplifies the design spectral acceleration and must be accounted for in the structural analysis.</p></details></div></section>
-
-
-    <section class="block map-block" style="padding:3rem 1.5rem">
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2>
-        <p style="margin-bottom:1rem;color:#555">We serve projects across Gatineau and its metropolitan area. <a href="/" data-interlink="1">More info</a>.</p>
-        <div class="map-wrap" style="position:relative;max-width:520px;margin:0 auto;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB">
-          <div id="map_1eef10" style="position:absolute;top:0;left:0;width:100%;height:100%"></div>
-        </div>
-        <link rel="stylesheet" href="/css/leaflet.css">
-        <script src="/js/leaflet.js"></script>
-        <script>
-        (function(){
-          var m=L.map("map_1eef10",{zoomControl:true,attributionControl:true}).setView([45.4278,-75.711],11);
-          L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
-            attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:19,subdomains:"abcd"
-          }).addTo(m);L.marker([45.4278,-75.711],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(m);
-          L.circle([45.4278,-75.711],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Gatineau");
-        })();
-        </script>
-        <div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center">
-          <a href="https://www.openstreetmap.org/?mlat=45.4278&mlon=-75.711#map=11/45.4278/-75.711" target="_blank" rel="noopener">View larger map</a>
-        </div>
-      </div>
-    </section>
-
-<footer style="background:#1C1917;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technical updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">Get email updates</p><form action="mailto:contact@geotechnical-engineering.org" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Your email" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#D97706;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Subscribe</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Gatineau, Canada · <a href="mailto:contact@geotechnical-engineering.org" style="color:rgba(255,255,255,.7)">contact@geotechnical-engineering.org</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-14</div></footer>
-
-</body></html>
+/* cat-row interno: SI flex para alinear name + toggle */
+.cat-row {
+display: flex !important;
+flex-wrap: nowrap !important;
+align-items: center !important;
+justify-content: space-between !important;
+width: 100% !important;
+}
+.cat-name {
+flex: 1 1 auto !important;
+min-width: 0 !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+white-space: normal !important;
+order: 1 !important;
+}
+/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
+.cat-item, details {
+display: block !important;
+position: relative !important;
+}</style><style>/*afx*/nav.navbar, .nav-bar, .top-nav {
+font-size: 1rem !important;
+padding: .8rem 1.5rem !important;
+}
+/* Arrow centrado */
+.nav-arrow, .nav-item .cat-arrow {
+display: inline-flex !important;
+align-items: center !important;
+vertical-align: middle !important;
+margin-left: .25rem !important;
+font-size: .65em !important;
+}
+/* Solo UN arrow por nav-item */
+.nav-item > .nav-arrow ~ .nav-arrow,
+.nav-item > .cat-arrow ~ .cat-arrow,
+.nav-item .nav-arrow + .nav-arrow,
+.nav-item .cat-arrow + .cat-arrow { display: none !important; }
+nav.navbar a, .nav-cat-link, .nav-item a, .nav-bar a {
+font-size: .95rem !important;
+font-weight: 500 !important;
+text-transform: none !important;
+letter-spacing: 0 !important;
+padding: .5rem .8rem !important;
+}</style><style>/*afx*//* Solo 1 chevron por item */
+html body .nav-item > .nav-arrow ~ .nav-arrow,
+html body .nav-item > .cat-arrow ~ .cat-arrow { display: none !important; }
+html body nav.navbar a.nav-cat-link,
+html body .navbar a.nav-cat-link,
+html body nav.navbar .nav-item a {
+font-size: 1.05rem !important;
+font-weight: 500 !important;
+padding: .6rem 1rem !important;
+}
+html body .nav-arrow, html body .cat-arrow { font-size: .7em !important; margin-left: .25rem !important; }
+html body nav.navbar { padding: 1rem 1.5rem !important; min-height: 56px !important; }</style><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><style>/*afx*/.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+body>*{max-width:100vw}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.navbar .nav{gap:.55rem !important}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/ensayo-cpt-5.webp" fetchpriority="high">
+</head><body><div class="topbar"><div class="logo-area"><div class="logo-text"><div class="main">GEOTECHNICAL ENGINEERING</div><div class="sub">GATINEAU</div></div></div><div class="nav"><div class="nav-item has-dd"><a href="/investigation/" class="nav-cat-link" style="color:inherit;text-decoration:none">Investigation</a><span>▾</span><div class="dd"><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ Testing</a><span>▾</span><div class="dd"><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="nav-item has-dd"><a href="/laboratory/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratory</a><span>▾</span><div class="dd"><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a><a href="/">Atterberg limits</a></div></div><div class="nav-item has-dd"><a href="/foundations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Foundations</a><span>▾</span><div class="dd"><a href="/">Pile foundation design</a></div></div><div class="nav-item has-dd"><a href="/slopes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Slopes & Walls</a><span>▾</span><div class="dd"><a href="/slope-stability/">Slope stability analysis</a><a href="/">Active/passive anchor design</a><a href="/">Retaining wall design</a></div></div><div class="nav-item has-dd"><a href="/flexible-pavement/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ground improvement</a><span>▾</span><div class="dd"><a href="/">Stone column design</a><a href="/liquefaction/">Vibrocompaction design</a></div></div><div class="nav-item has-dd"><a href="/excavations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Underground Excavations</a><span>▾</span><div class="dd"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/excavations/">Geotechnical design of deep excavations</a><a href="/excavations/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="/" class="nav-cat-link" style="color:inherit;text-decoration:none">Roadway</a><span>▾</span><div class="dd"><a href="/flexible-pavement/">Flexible pavement design</a><a href="/flexible-pavement/">Rigid pavement design</a><a href="/cbr-road/">CBR study for road design</a></div></div><div class="nav-item has-dd"><a href="/seismic/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismic</a><span>▾</span><div class="dd"><a href="/liquefaction/">Soil liquefaction analysis</a><a href="/excavations/">Base isolation seismic design</a><a href="/excavations/">Seismic microzonation</a></div></div></div></div><header class="hero"><div class="hero-inner"><div class="crumb-d44d"><a href="/">Home</a> › <span>Investigation</span> › <span>CPT (Cone Penetration Test)</span></div><h1>CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology</h1><p class="tagline">Sound ground. Sound decisions.</p><a class="hero-cta" href="#main-content">LEARN MORE</a></div></header><section id="main-content" class="block"><div class="container"><p>The CPT rig working in Gatineau is a 20-tonne tracked unit fitted with a 15 cm² piezocone that records tip resistance, sleeve friction, and pore pressure simultaneously at 2 cm intervals. It pushes through the sensitive Leda clays and glacial tills that define the Outaouais corridor, with a hydraulic ram that can penetrate dense basal till at depths exceeding 25 metres. For projects near the Ottawa River, where alluvial silts overlie Champlain Sea deposits, the cone's u₂ filter element provides the dissipation data needed to estimate consolidation rates before foundation design begins. The truck-mounted configuration allows access to tight lots in the Hull sector without dismantling the push system between soundings.</p><blockquote style="border-left:4px solid #D97706;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">A single CPT sounding in Gatineau's Champlain clays replaces about four boreholes of SPT sampling for stratigraphic resolution, cutting field time by more than half.</blockquote></div></section><section class="block tint"><div class="container"><h2>Our service areas</h2><div class="services-grid"><div class="svc-card"><div class="card-img"><img src="/img/estabilidad-taludes-1.webp" alt="" loading="eager" fetchpriority="high" decoding="async"></div><div class="card-body"><h3>Slopes & Walls</h3><div class="card-links"><a href="/slope-stability/">Slope stability analysis ›</a><a href="/">Active/passive anchor design ›</a><a href="/">Retaining wall design ›</a></div><a class="card-viewall" href="#taludes">VIEW ALL SLOPES & WALLS ›</a></div></div><div class="svc-card"><div class="card-img"><img src="/img/tuneles-suelo-blando-1.webp" alt="" loading="lazy" decoding="async"></div><div class="card-body"><h3>Underground Excavations</h3><div class="card-links"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels ›</a><a href="/excavations/">Geotechnical design of deep excavations ›</a><a href="/excavations/">Geotechnical excavation monitoring ›</a></div><a class="card-viewall" href="#excavaciones-subterraneo">VIEW ALL UNDERGROUND EXCAVATIONS ›</a></div></div><div class="svc-card"><div class="card-img"><img src="/img/pavimento-flexible-1.webp" alt="" loading="lazy" decoding="async"></div><div class="card-body"><h3>Roadway</h3><div class="card-links"><a href="/flexible-pavement/">Flexible pavement design ›</a><a href="/flexible-pavement/">Rigid pavement design ›</a><a href="/cbr-road/">CBR study for road design ›</a></div><a class="card-viewall" href="#geotecnia-vial">VIEW ALL ROADWAY ›</a></div></div></div></div></section><section class="block"><div class="container"><h2>Methodology and scope</h2><div>Gatineau sits on a complex Quaternary stratigraphy where the Champlain Sea inundated the region roughly 11,000 years ago, depositing the thick sequence of silty clays that now dominates the low-lying areas of Hull and the Gatineau sector. These soils exhibit pronounced sensitivity — values above 30 are common — which means the remoulded strength measured by the CPT sleeve friction can drop to a fraction of the peak value. <br>For sites near the Gatineau Hills transition, the cone encounters interbedded glacial till that demands high push forces, a condition where we often pair the CPT with <a href="/seismic-refraction/">seismic refraction</a> to map the bedrock surface before choosing rig capacity. <br>The pore pressure parameter Bq derived from the u₂ reading helps identify the depth of the groundwater table, a critical input for <a href="/slope-stability/">slope stability</a> analysis when excavating for underground parking near the escarpment. In sandy lenses found at the base of the clay sequence, the normalized friction ratio provides a reliable check against published <a href="/liquefaction/">liquefaction</a> susceptibility criteria under the NBCC seismic provisions.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><img src="/img/ensayo-cpt-5.webp" alt="CPT Testing in Gatineau: Continuous Soil Profiling for Western Quebec Geology" loading="eager" style="width:100%;max-height:210px;object-fit:cover;display:block" width="800" height="600" loading="eager" decoding="async" fetchpriority="high"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technical reference — Gatineau</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Local ground factors</h2><p>In Gatineau, many times we see that contractors underestimate how quickly the bearing layer drops from the Rockcliffe escarpment toward the river plain. A site on Chemin de la Montagne might show refusal at 4 metres in till, while three blocks south toward Boulevard Saint-Joseph the same refusal depth exceeds 22 metres because the bedrock surface plunges beneath a deep paleochannel. Without a continuous CPT trace, a designer could misinterpret a dense sand lens as bearing stratum and undercut the pile length by several metres. The consequence shows up later as differential settlement between the wing and the tower of a multi-family building, particularly when the clay contains sensitive fabric that loses strength upon remoulding during excavation.</p></div></section><section class="block mid-cta-d44d" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#D9770615,#D9770608);border-left:4px solid #D97706;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnical-engineering.org" style="display:inline-block;background:#D97706;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnical-engineering.org</a></div></div></section><section class="block"><div class="container"><h2>Relevant standards</h2><p>ASTM D5778-20 Standard Test Method for Electronic Friction Cone and Piezocone Penetration Testing of Soils, NBCC 2020 Division B, Section 4.1.8 (Seismic Site Classification), CSA S6:19 Section 6 (Geotechnical Investigation for Bridges), Robertson & Cabal (2015) CPT Soil Behaviour Type Classification</p></div></section><section class="block tint"><div class="container"><h2>Typical values</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D97706;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D97706;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Tip resistance (qc)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.05 – 50 MPa (typical Gatineau range)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Sleeve friction (fs)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2 – 500 kPa</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Friction ratio (Rf)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.1% – 8% (sensitive clays < 2%)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Pore pressure (u₂)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0 – 2.5 MPa</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Standard cone apex</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15 cm² (ASTM D5778)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Penetration rate</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">20 mm/s ± 5 mm/s</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Maximum depth (local)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 m (limited by till refusal)</td></tr></tbody></table></div></div></section><section class="block"><div class="container"><h2>Common questions</h2><details><summary>What is the typical cost of a CPT sounding in Gatineau?</Mobilization within the greater Gatineau area is quoted separately and depends on the number of soundings planned.</p></details><details><summary>How does CPT compare to boreholes for Gatineau's sensitive clays?</summary><p>CPT provides a continuous vertical profile of soil response without the sample disturbance that affects standard penetration testing in sensitive Leda clays. The pore pressure measurement captures the in-situ stress state, which is critical for evaluating the risk of strength loss during construction. Boreholes remain useful for retrieving specimens for laboratory Atterberg and triaxial testing, so the two methods often complement each other on large projects.</p></details><details><summary>Can the CPT rig reach refusal in Gatineau's glacial till?</summary><p>Yes, the 20-tonne tracked rig typically reaches refusal on the dense Precambrian-derived till that underlies much of the Gatineau area. Refusal is defined as a sustained tip resistance exceeding 50 MPa or an inability to maintain the standard penetration rate. At that point the sounding provides a reliable indicator of the bearing stratum depth.</p></details><details><summary>What NBCC site class information does a seismic CPT provide?</summary><p>A seismic CPT measures downhole shear wave velocity (Vs) directly, which delivers the average Vs30 value used to assign NBCC site classes from A (hard rock) to E (soft soil). In Gatineau, many sites with deep Champlain Sea clay fall into class D or E, which amplifies the design spectral acceleration and must be accounted for in the structural analysis.</p></details></div></section><section class="block map-block" style="padding:3rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2><p style="margin-bottom:1rem;color:#555">We serve projects across Gatineau and surrounding areas. <a href="/" data-interlink="1">More info</a>.</p><div class="map-wrap" style="position:relative;max-width:520px;margin:0 auto;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB"><div id="map_1eef10" style="position:absolute;top:0;left:0;width:100%;height:100%"></div></div><link rel="stylesheet" href="/css/leaflet-fe52.css"><script src="/js/leaflet-fe52.js"></script><script>
+(function(){
+var m=L.map("map_1eef10",{zoomControl:true,attributionControl:true}).setView([45.4278,-75.711],11);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
+attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:19,subdomains:"abcd"
+}).addTo(m);L.marker([45.4278,-75.711],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(m);
+L.circle([45.4278,-75.711],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Gatineau");
+})();
+</script><div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center"><a href="https://www.openstreetmap.org/?mlat=45.4278&mlon=-75.711#map=11/45.4278/-75.711" target="_blank" rel="noopener">View larger map</a></div></div></section><footer style="background:#1C1917;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Gatineau, Canada · <a href="mailto:contact@geotechnical-engineering.org" style="color:rgba(255,255,255,.7)">contact@geotechnical-engineering.org</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong><a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-20" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-20</div></footer></body></html>
